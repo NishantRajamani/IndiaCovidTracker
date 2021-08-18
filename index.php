@@ -1,5 +1,4 @@
 <html>
-<title>Hi</title>
 <head>
 	<link rel="stylesheet" href="style.css">
 	<script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
@@ -9,6 +8,7 @@
 
 	<?php include 'tracker.php'; ?>
 	<div class = "heading">
+		<form method='POST'>
 		<select id="state" name ="state" class="dropdown">	
 		<option value = "Total">India</option>
 		<?php
@@ -23,19 +23,8 @@
 			<option value="deaths">Deaths</option>
 	
 		</select>
-		 <input type="submit" value="select" onclick="loadVal()">
-		 <script>
-			function loadVal() {
-			var xhttp = new XMLHttpRequest();
-			xhttp.onreadystatechange = function() {
-				if (this.readyState == 4 && this.status == 200) {
-					document.getElementById("demo").innerHTML =
-					this.responseText;
-				}
-			};
-			}
-		 </script>
-
+		 <input type="submit" class="select-button" value="select">
+		</form>
 	</div>
 	<div class = "content">		
 		<div class ="number-content">
