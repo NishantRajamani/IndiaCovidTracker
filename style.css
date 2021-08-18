@@ -1,0 +1,55 @@
+.heading
+{
+	background-color : #E6E6FA;
+	height: 10%;
+  	width: 100%;
+ }
+.content
+{
+	background-color: lightblue;
+	height: 90%;
+  	width: 100%;
+  	font-style: "Garamond";
+	font-color: black;
+
+}
+.number-content
+{
+	text-align: center;
+	padding-top:15%;
+	font-size: 120px;
+}
+body
+{
+	margin: 0;
+}
+.text-content
+{
+	text-align: center;
+	font-size: 50px;
+}
+.dropdown {
+  background-color : #DDA0DD;
+  color: white;
+  height: 100%;
+  width: 44.75%;
+  border: none;
+  cursor: pointer;
+  text-align-last: center;
+}
+
+.select-button
+{
+  background-color : #AFD275;
+  float : right;
+  color: white;
+  height: 100%;
+  width: 10%;
+  border: none;
+  cursor: pointer;
+  text-align-last: center;
+}
+.dropdown:hover, .dropdown:focus {
+  background-color: #4682B4
+;
+}
