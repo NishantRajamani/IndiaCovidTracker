@@ -18,3 +18,4 @@
 		else	
 			echo "<br>Total number of ".$type. " covid cases in ".$name;
 	}	
+>
